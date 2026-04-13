@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Student Portfolio Login</h2>
+      <p>Enter your 10-digit phone number</p>
+
+      <form id="loginForm">
+        <input
+          type="text"
+          id="phone"
+          placeholder="Enter phone number"
+          maxlength="10"
+        />
+        <button type="submit">Login</button>
+        <p id="errorMsg" class="error"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
